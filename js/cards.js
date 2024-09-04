@@ -1,5 +1,6 @@
-// Fetch the JSON data
-fetch('../json/cards.json')
+document.addEventListener("DOMContentLoaded", function() {
+   // Fetch the JSON data
+    fetch('../json/cards.json')
     .then(response => response.json())
     .then(data => {
         const cardsContainer = document.getElementById('cards');
@@ -19,4 +20,5 @@ fetch('../json/cards.json')
         // Insert the generated HTML into the DOM
         cardsContainer.innerHTML = cardsHTML;
     })
-    .catch(error => console.error('Error loading cards:', error));
+    .catch(error => console.error('Error loading cards:', error)); 
+});
