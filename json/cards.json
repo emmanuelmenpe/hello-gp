@@ -1,0 +1,24 @@
+{
+    "cards":[
+        {
+            "title":"title one",
+            "subtile":"subtile one",
+            "image":"./images/image01.jpeg"
+        },
+        {
+            "title":"title two",
+            "subtile":"subtile two",
+            "image":"./images/image02.png"
+        },
+        {
+            "title":"title three",
+            "subtile":"subtile three",
+            "image":"./images/image03.jpeg"
+        },
+        {
+            "title":"title four",
+            "subtile":"subtile four",
+            "image":"./images/image04.jpg"
+        }
+    ]
+}
