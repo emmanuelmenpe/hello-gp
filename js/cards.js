@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
-   // Fetch the JSON data
+   console.log("I'm here")
+    // Fetch the JSON data
     fetch('../json/cards.json')
     .then(response => response.json())
     .then(data => {
